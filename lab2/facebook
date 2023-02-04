@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="=en">
+    <title>Facebook</title>
+    <style>
+        body{
+            background-color:gainsboro;
+        }
+        input{
+            font-size:24px;
+            margin-left:50px;
+            padding:20px;
+        }
+        form{
+            
+        }
+        #first{
+            position: absolute;
+            margin-left:200px;
+            margin-top:100px;
+            
+        }
+        h1{font-size:100px;
+            color:rgb(75, 150, 224);
+        }
+        p{
+            font-size:37px;
+        }
+        #sec{
+            margin-left: 700px;
+            padding-left: 50px;
+            margin-right: 10px;
+            top:110px;
+            padding: 20px 20px 20px 20px;
+            background-color:white;
+            border-width:30px;
+            position:absolute;
+            right:60px;
+            left: 250px;
+            border-radius: 10px;
+           
+        }
+        #th{
+            font-size:15px;
+            position: absolute;
+            margin-top:600px;
+            margin-left:1000px;
+            text-align: center;
+        }
+        button{
+            font-size:30px;
+            border-width: 0px;
+            padding: 10px 50px 10px 20px;
+            border-radius: 10px;
+
+        }
+        #f{
+            background-color:rgb(75, 150, 224);
+            margin:10px 10px 10px 30px ; 
+            padding: 10px 150px 10px 150px;
+            color:white;
+            text-align: center;
+            
+        }
+        #s{
+            margin:3px 40px 5px 40px ; 
+            background-color: white;
+            color:rgb(75, 150, 224);
+            font-size:20px;
+            padding: 10px 20px 10px 100px;
+        }
+        #t{
+            font-size:20px;
+            margin:30px 10px 10px 30px ; 
+            padding: 10px 100px 10px 120px;
+            color:white;
+            background-color:rgb(51, 186, 51);
+        }
+    </style>
+    <body>
+        <div id="first">
+            <h1>facebook</h1>
+            <p>Facebook помогает вам всегда<br> оставаться на связи и общаться со <br> своими знакомыми.</p>
+        </div>
+        <div id="sec">
+            <form>
+                
+                <input type="text" id="fname" name="fname" placeholder="Электронный адрес или номер телефона"><br>
+                <br>
+                <input type="text" id="lname" name="lname" placeholder="Пароль"><br><br>
+                <button type="submit" id="f">Вход</button>
+                <br>
+                <button type="button" id="s">Забыли пароль?</button>
+                <hr>
+                <button type="button" id="t">Создать аккаунт</button>
+            </form>
+        </div>
+        <div>
+            <p id="th"><strong>Создать страницу</strong> знаменитости, музыкальной группы<br> или компании</p>
+        </div>
+    </body>
+</html>
