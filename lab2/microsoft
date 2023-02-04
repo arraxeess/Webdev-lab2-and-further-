@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html>
+    <style>
+        #mm{
+            margin: 20px;
+            margin-left: 40px;
+            font-size: 28px;
+        }
+        .m1{
+            margin-top:100px;
+            margin-right:8px;
+        }
+        #f{
+            position:absolute;
+            top:7px;
+            left:5px;
+        }
+        #s{
+            
+            background-color: gainsboro;
+
+        }
+        #i{
+            margin-left: 900px;}
+        #text{
+            margin-left:100px;
+            margin-top:100px;
+            position: absolute;
+            font-size: 20px;
+        }
+        .icons{
+            margin:40px;
+        }
+        .forone{
+            border-width: 0px;
+            padding:20px;
+            margin-top: 20px;
+            margin-right:20px;
+        }
+        .gg{
+            background-color:rgb(201, 230, 220);
+            width: 300px;
+            top:300px;
+            height:300px;
+            padding:20px; 
+            display: inline-block;
+            margin:15px;
+        }
+        #msedge{
+            top: 50px;
+        }
+        h1{
+            font-size: 35px;
+        }
+        a:hover {
+        background-color: yellow;
+        }
+        #ddd{
+            margin-left:1030px;
+            margin-top:0px;
+        }
+        .rs{
+            display: inline-block;
+            margin-top: 0px;
+
+        }
+        #ls{
+            position: absolute;
+            
+        }
+        optgroup{
+            display: inline-block;
+            padding:20px;
+        }
+        
+
+    </style>
+    <body>
+        <div id="ls">
+            <img id="f"src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Microsoft_logo.svg/768px-Microsoft_logo.svg.png?20210729021049" 
+             alt="micr" width="20" height="20"></img>
+             <a id="mm" href="microsoft.html">Microsoft </a>
+             <a class="m1" href="microsoft.html">Microsoft 365 </a>
+             <a class="m1" href="rgrxg">Office </a>
+             <a class="m1" href="ergrtg">Windows </a>
+             <a class="m1" href="regsrgr">Support </a>
+        </div>
+        <div id="ddd">
+        <div class="rs">
+            <form action="#">
+                <label for="prod"></label>
+                <select name="prods" id="prod">
+                  <optgroup label="Software">
+                    <option value="" disabled selected>Продукты Майкрасофт</option>
+                    <option value="select">Приложения для Windows</option>
+                    <option value="javascript">Onedrive</option>
+                    <option value="php">Outlook</option>
+                    <option value="java">Skype</option>
+                    <option value="golang">Teams</option>
+                  </optgroup>
+                  <optgroup label="PC devices">
+                    <option value="python">XBOX</option>
+                  </optgroup>
+                  <optgroup label="Развлечения">
+                    <option value="python">XBOX и игры</option>
+                    <option value="c#">Компьютерные инры</option>
+                    <option value="C++">Игры для виндоус</option>
+                  </optgroup>
+                  <optgroup label="Для бизнеса">
+                    <option value="python">Dynamics 365</option>
+                    <option value="c#">Ms Cloud</option>
+                    <option value="C++">MS Security</option>
+                    <option value="erlang">Azure</option>
+                  </optgroup>
+                </select>
+          </form>
+        </div>
+        <div class="search-container rs">
+            <form action="/action_page.php">
+              <input type="text" placeholder="Search.." name="search">
+              <button type="submit">Find<i class="fa fa-search"></i></button>
+            </form>
+          </div>
+          <div class="rs" id="prof">
+            <a href="https://account.microsoft.com/account/">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/9/99/Sample_User_Icon.png"
+            alt="Windows_Update_Icon_2022" width="30" height="30"></a>
+            </div>
+        </div>
+        <div id="s">
+            <div id="text">
+            <h1> Microsoft 365</h1>
+            <p>Все, что вам нужно, чтобы достичь большего за меньшее время</p>
+            <button type="submit" class="forone">Для 1 человека</button>
+            <button type="submit" class="forone"> До 6 человек  > </button>
+        </div>
+            <div id="i">
+            <img class="icons" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Microsoft_Office_OneDrive_%282019%E2%80%93present%29.svg/768px-Microsoft_Office_OneDrive_%282019%E2%80%93present%29.svg.png?20220402045433"
+             alt="onedrive" width="150"></img>
+             <img class="icons" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Microsoft_Office_Excel_%282019%E2%80%93present%29.svg/768px-Microsoft_Office_Excel_%282019%E2%80%93present%29.svg.png?20190925171014"
+              alt="excel" width="150"></img>
+            <br>
+              <img class="icons" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Microsoft_Office_PowerPoint_%282019%E2%80%93present%29.svg/768px-Microsoft_Office_PowerPoint_%282019%E2%80%93present%29.svg.png?20210821050414"
+              alt="pptx" width="150"></img>
+              <img class="icons" src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Microsoft_Office_Word_%282019%E2%80%93present%29.svg/180px-Microsoft_Office_Word_%282019%E2%80%93present%29.svg.png"
+              alt="word" width="150"></img>
+            </div>
+        </div>
+        <div id="button" >
+            <div id="msteams" class="gg">
+            <a href="https://www.microsoft.com/en/microsoft-teams/log-in">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Microsoft_Office_Teams_%282018%E2%80%93present%29.svg/180px-Microsoft_Office_Teams_%282018%E2%80%93present%29.svg.png"
+            alt="teams" width="100">
+            <h1>Microsoft Teams</h1>
+            <p>Общайтесь, проводите собрания, звоните и<br> сотрудничайте</p>
+            </a>
+            <a href="https://en.wikipedia.org/wiki/Microsoft_Teams"> Подробнее ></a>
+        </div>
+        <div  id="msedge" class="gg"  >
+            <a href="https://www.microsoft.com/ru-ru/edge">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Microsoft_Edge_logo_%282019%29.svg/150px-Microsoft_Edge_logo_%282019%29.svg.png"
+            alt="edge" width="100">
+            <h1>Microsoft Edge</h1>
+            <p>Потрясающая производительность, больше<br> конфиденциальности, продуктивности и<br> дополнительние возможностей</p>
+            </a>
+            <a href="https://www.microsoft.com/en-us/edge"> Скачать ></a>
+        </div>
+        <div class="gg" id="msod">
+            <a href="https://www.microsoft.com/en-ww/microsoft-365/onedrive/online-cloud-storage">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Microsoft_Office_OneDrive_%282019%E2%80%93present%29.svg/768px-Microsoft_Office_OneDrive_%282019%E2%80%93present%29.svg.png?20220402045433"
+            alt="oned" width="100">
+            <h1>Microsoft OneDrive</h1>
+            <p>Сохраняйте свои файлы и фото на<br>Уандрайв-они будут доступны с любого устройства <br> и где угодно</p>
+            </a>
+            <a href="https://www.microsoft.com/en-us/microsoft-365/onedrive/download"> Скачать > </a>
+        </div>
+        <div class="gg" id="update">
+            <a href="https://support.microsoft.com/en-us/windows/update-windows-3c5ae7fc-9fb6-9af1-1984-b5e0412c556a">
+                <img src="https://upload.wikimedia.org/wikipedia/en/thumb/1/17/Windows_Update_Icon_2022.png/90px-Windows_Update_Icon_2022.png"
+            alt="Windows_Update_Icon_2022" width="100">
+            <h1>Microsoft Update</h1>
+            <p>Предоставляя новые функции, которые помогут вам<br> успевать больше, общаться чаще и экономить <br>время.</p>
+            </a>
+            <a href="https://www.catalog.update.microsoft.com/"> Подробнее > </a>
+        </div>
+            
+        </div>
+
+    </body>
+</html>
