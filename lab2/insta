@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+    <title>Instagram</title>
+    <style>
+        body{
+            background-color: antiquewhite;
+        }
+        button{
+            font-size:24px;
+            border-width: 1px;
+            border-color: antiquewhite;
+            border-radius: 10px;
+            }
+        #f{
+            background-color:rgb(75, 150, 224);
+            margin:10px 10px 10px 50px ; 
+            padding: 10px 95px 10px 95px;
+            color:white;
+            text-align: center;
+            
+        }
+        #s{
+            margin:3px 40px 5px 70px ; 
+            background-color: white;
+            color:blue;
+            font-size:12px;
+            padding: 10px 20px 10px 65px;
+            border-width: 0px
+            ;
+        }
+        #t{
+            font-size:20px;
+            margin-left: 200px;
+            color: blue;
+            margin-top:10px;
+        }
+        #signup{
+            margin-left: 700px;
+            margin-right: 100px;
+            top:510px;
+            padding: 5px;
+            background-color:white;
+            border-width:30px;
+            position:absolute;
+            right:60px;
+            left: 250px;
+            border-radius: 10px;
+            text-align: center;
+
+        }
+        #insta{
+            width:250px;
+            margin-top:0px;
+            margin-left:50px;
+        }
+        #sec{
+            margin-left: 700px;
+            padding-left: 50px;
+            margin-right: 100px;
+            top:10px;
+            padding: 20px 20px 20px 20px;
+            background-color:white;
+            border-width:30px;
+            position:absolute;
+            right:60px;
+            left: 250px;
+            border-radius: 10px;
+           
+        }
+        input{
+            font-size:17px;
+            margin-left:50px;
+            padding:20px;
+        }
+        #th{
+            font-size:15px;
+            position: absolute;
+            margin-top:570px;
+            margin-left:1060px;
+            text-align: center;
+        }
+        #facebook{
+            background-color: white;
+            border-width: 0px;
+            font-size: medium;
+            margin:10px 10px 10px 110px ; 
+            color:blue;
+            padding: 10px 0px 10px 15px;
+        }
+        #ff{
+            position: absolute;
+            margin-top: 15px;
+            margin-left: 90px;
+
+        }
+        #ap{
+            margin-top:0px;
+        }
+        #dd{
+            position: absolute;
+            margin-top:670px;
+            margin-left: 50px;
+        }
+        #down{
+            margin-left:10px;
+        }
+        #start{
+            position: absolute;
+            margin-left: 250px;
+            margin-top: 80px;
+        }
+        #l{
+            position: absolute;
+            margin-top: 700px;
+            margin-left:400px;
+        }
+    </style>
+    <body>
+        <div id="start"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/198px-Instagram_logo_2016.svg.png?20210403190622"
+            width="500" height="500"></img></div>
+        <div id="sec">
+            <img id="insta" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Instagram_logo.svg/1200px-Instagram_logo.svg.png" 
+            alt="insta" width="200"></img>
+            <form>
+                <input type="text" id="fname" name="fname" placeholder="Номер телефонаб имя аользлвателя или..."><br>
+                <br>
+                <input type="text" id="lname" name="lname" placeholder="Пароль"><br><br>
+                <button type="submit" id="f">Войти</button>
+                <hr>
+                <img id="ff" src="https://upload.wikimedia.org/wikipedia/en/0/04/Facebook_f_logo_%282021%29.svg" alt="facebook logo"
+                height="25" width="20"></img>
+                <button type="button" id="facebook">Войти через Facebook</button>
+                <button type="button" id="s">Забыли пароль?</button>
+            </form>
+        </div>
+        <div id="signup">
+            <p>У вас еще нет аккаунта? <a href="emrfktrg">Зарегистрироваться</a></p>
+        </div>
+        <div>
+        
+    </div>
+        <div>
+            <p id="th">Установите приложение.<br><br>
+                <img id="ap" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Download_on_the_App_Store_Badge.svg/120px-Download_on_the_App_Store_Badge.svg.png?20170219160111"
+            alt="ap" width="100";></img>
+            <img id="playmarket" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Google_Play_Store_badge_EN.svg/270px-Google_Play_Store_badge_EN.svg.png"
+            alt="playmarket" width="100";></img>
+            </p>
+            
+        </div>
+
+    <div id="dd">
+        <a id="down" href="efd">Мета  </a>
+        <a id="down" href="efd">Информация  </a>
+        <a id="down" href="efd">Блог  </a>
+        <a id="down" href="efd">Вакансии  </a>
+        <a id="down" href="efd">Помощь  </a>
+        <a id="down" href="efd">АПИ  </a>
+        <a id="down" href="efd">Конфиденциальность  </a>
+        <a id="down" href="efd">Условия  </a>
+        <a id="down" href="efd">Популярные аккаунты  </a>
+        <a id="down" href="efd">Места  </a>
+        <a id="down" href="efd">Инстаграм Лайт  </a>
+        <a id="down" href="efd">Загрузка контактов и лица, не являющиеся пользователями</a>
+    </div>
+    <form id="l" action="/action_page.php">
+        <label for="язык">Выберите языk:</label>
+        <select id="язык" name="язык">
+          <option value="volvo">Русский</option>
+          <option value="saab">Английский</option>
+          <option value="fiat">Китайский-мандарин упрощенный</option>
+          <option value="audi">Французский</option>
+        </select>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;INSTAGRAM OT FACEBOOK, 2022
+      </form>
+      
+    </body>
+</html>
