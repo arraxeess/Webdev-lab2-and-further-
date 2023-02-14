@@ -1,0 +1,2 @@
+let name=prompt("whats official way of JS?", " ")
+if(name=“ECMAScript”) ? "right" :"You don’t know? ECMAScript!”
