@@ -1,3 +1,6 @@
 function pow(a,b){
 return a**b;
 }
+let a=prompt("enter num: ");
+let b=prompt("enter 2nd num: ");
+if(b<0)? alert("not supported!"): alert(pow(a,b));
