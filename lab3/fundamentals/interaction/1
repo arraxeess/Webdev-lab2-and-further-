@@ -1,3 +1,19 @@
 let name = prompt('whats ur name?');
 
 alert(`You are ${name}!`); 
+
+-------------------
+<!DOCTYPE html>
+<html>
+<body>
+
+  <script>
+    'use strict';
+
+    let name = prompt('whats ur name?');
+
+    alert(`You are ${name}!`); 
+  </script>
+
+</body>
+</html>
