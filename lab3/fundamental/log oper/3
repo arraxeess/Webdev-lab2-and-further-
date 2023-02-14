@@ -1,0 +1,16 @@
+let user=prompt("Whos this?","")
+let password
+if(user="Admin"){
+	let password=prompt("Passwords?"," ")
+	if(password="TheMaster")?"Welcome"
+	: (password="" || password=null) ?“Canceled”
+	: “Wrong password”
+}
+else if(user="" || user=null){
+	“Canceled”
+}
+else{
+	“I don’t know you”
+}
+
+  
