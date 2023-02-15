@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<script>
+"use strict";
+
+function multiplyNumeric(menu){
+  for(let i in menu){
+    if(+menu[i]==menu[i]){
+        menu[i]*=2;
+    }
+  }
+}
+
+let menu = {
+  width: 200,
+  height: 300,
+  title: "My menu"
+};
+
+multiplyNumeric(menu);
+for(let i in menu){
+  alert(menu[i]);
+}
+
+
+// after the call
+menu = {
+  width: 400,
+  height: 600,
+  title: "My menu"
+};
+
+
+</script>
