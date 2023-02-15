@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<script>
+"use strict";
+
+function sum(object){
+  let su=0;
+  for(let i in object){
+    su+=object[i];
+  }
+return su;
+}
+let salaries = {
+  John: 100,
+  Ann: 160,
+  Pete: 130
+}
+
+alert(sum(salaries));
+
+
+
+
+</script>
