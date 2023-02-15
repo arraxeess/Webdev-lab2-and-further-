@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<script>
+"use strict";
+
+let user = {
+  name: "John",
+  surname: "Smith",
+};
+
+user.name="Pete";
+del user.name;
+
+
+</script>
