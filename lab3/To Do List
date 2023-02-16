@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      To Do List
+    </title>
+    <style>
+      h1{
+        font-weight: 30px;
+        text-align: center;
+      }
+    div{
+      border:10px;
+      background-color: antiquewhite;
+    }
+    ul{
+      position: absolute;
+      margin-top: 100px;
+    }
+    li{
+      padding:10px;
+      margin:20px;
+    }
+
+
+    ul li:hover {
+      background: #e52929;
+    }
+
+    ul li.checked {
+      background: #802222;
+      color: #fff;
+      text-decoration: line-through;
+    }
+
+    ul li.checked::before {
+      content: '';
+      position: absolute;
+      border-color: #5b3d3d;
+      border-style: solid;
+      border-width: 0 2px 2px 0;
+      top: 10px;
+      left: 16px;
+      transform: rotate(45deg);
+      height: 15px;
+      width: 7px;
+    }
+
+    .close {
+      position: relative;
+      margin-right: 1000px;
+      top: 0;
+      padding: 2px;
+    }
+
+    .close:hover {
+      background-color: #f44336;
+      color: white;
+    }
+
+    input {
+      margin: 0;
+      border: 10px;
+      border-radius: 0;
+      width: 75%;
+      padding: 10px;
+      float: left;
+      font-size: 16px;
+      background-color: antiquewhite;
+    }
+
+    button {
+      position: absolute;
+      padding: 10px;
+      width: 25%;
+      background: #d9d9d9;
+      color: #555;
+      float: left;
+      text-align: center;
+      font-size: 16px;
+      cursor: pointer;
+      border-radius: 0;
+    }
+
+
+
+    </style>
+  </head>
+  <body>
+    <h1>My To Do List</h1>
+
+  <div>
+      <input type="text"  id="Input" name="Activity"></input>
+      <button onclick="newElement()">Add activity</button>
+  </div>
+
+
+  <ul id="activityList">
+
+  </ul>
+
+    <script>
+
+
+       let list = document.querySelector('ul');
+      list.addEventListener('click', function(ev) {
+        if (ev.target.tagName === 'LI') {
+          ev.target.classList.toggle('checked');
+        }
+      }, false);
+
+
+        function newElement() {
+          let newActivity = document.createElement("li");
+          let inputValue = document.getElementById("Input").value;
+          let newNode = document.createTextNode(inputValue);
+          newActivity.appendChild(newNode);
+          if(inputValue===""){
+            alert("cannot add empty item!")
+          }
+          else{
+            document.getElementById("activityList").appendChild(newActivity)
+          }
+          document.getElementById("Input").value = "";
+
+          let activity = document.createElement("button");
+          let txt = document.createTextNode("X");
+          activity.className = "close";
+          activity.appendChild(txt);
+          newActivity.appendChild(activity);
+          for (i = 0; i < close.length; i++) {
+          close[i].onclick = function() {
+            var div = this.parentElement;
+            div.style.display = "none";
+          }
+        }
+          
+        }
+
+        let myNodelist = document.getElementsByTagName("li");
+        for ( let i = 0; i < myNodelist.length; i++) {
+          let activity = document.createElement("button");
+          let txt = document.createTextNode("X");
+          activity.className = "close";
+          activity.appendChild(txt);
+          myNodelist[i].appendChild(activity);
+        }
+
+
+        let close = document.getElementsByClassName("close");
+        for (let i = 0; i < close.length; i++) {
+          close[i].onclick = function() {
+            let div = this.parentElement;
+            div.style.display = "none";
+          }
+        }
+
+
+
+      
+
+    </script>
+
+  </body>
+</html>
